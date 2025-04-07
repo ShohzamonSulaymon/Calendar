@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Календарь</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calendar">
+    <div class="header">
+      <button id="prev-year">◄◄</button>
+      <button id="prev">◄</button>
+      <h2 id="month-year"></h2>
+      <button id="next">►</button>
+      <button id="next-year">►►</button>
+    </div>
+    <div class="weekdays">
+      <div>Пн</div><div>Вт</div><div>Ср</div><div>Чт</div><div>Пт</div><div>Сб</div><div>Вс</div>
+    </div>
+    <div class="days" id="days-grid"></div>
+    <div class="notes">
+      <input type="text" id="note-input" placeholder="Добавить заметку">
+      <button id="add-note">Добавить</button>
+      <ul id="notes-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
